@@ -53,6 +53,9 @@
     <Compile Include="BeerPressure\BeerPressureTest.cs" />
     <Compile Include="BeerPressure\Poll.cs" />
     <Compile Include="BeerPressure\Pub.cs" />
+    <Compile Include="Cycling\CyclingSolver.cs" />
+    <Compile Include="Cycling\CyclingSolverTest.cs" />
+    <Compile Include="Cycling\Segment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
