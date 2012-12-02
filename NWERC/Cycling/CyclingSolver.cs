@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 
 namespace NWERC.Cycling
@@ -9,7 +10,7 @@ namespace NWERC.Cycling
         {
             return lines
                 .Select(line => line.Split(' '))
-                .Select(sl => new Segment(float.Parse(sl[0]), float.Parse(sl[1]), float.Parse(sl[2])));
+                .Select(sl => new Segment(float.Parse(sl[0], new CultureInfo("en-US")), float.Parse(sl[1], new CultureInfo("en-US")), float.Parse(sl[2], new CultureInfo("en-US"))));
         }
 
     }

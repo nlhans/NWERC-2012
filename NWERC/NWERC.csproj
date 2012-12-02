@@ -56,6 +56,11 @@
     <Compile Include="Cycling\CyclingSolver.cs" />
     <Compile Include="Cycling\CyclingSolverTest.cs" />
     <Compile Include="Cycling\Segment.cs" />
+    <Compile Include="DigitalClock\ClockDigit.cs" />
+    <Compile Include="DigitalClock\Sample.cs" />
+    <Compile Include="DigitalClock\DigitalClockSolver.cs" />
+    <Compile Include="DigitalClock\DigitalClockSolverTest.cs" />
+    <Compile Include="DigitalClock\SevenSegment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

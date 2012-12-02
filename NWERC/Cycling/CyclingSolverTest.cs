@@ -10,7 +10,7 @@ namespace NWERC.Cycling
         [Test]
         public void TestParseSegmentsFromString()
         {
-            var segments = CyclingSolver.ParseSegmentsFromString(new List<string> { "200,0 15,0 15,0", "225,0 31,0 10,0" });
+            var segments = CyclingSolver.ParseSegmentsFromString(new List<string> { "200.0 15.0 15.0", "225.0 31.0 10.0" });
 
             Assert.AreEqual(425.0f, segments.Sum(x => x.LengthInMeters));
             Assert.AreEqual(46.0f, segments.Sum(x => x.RedLightTime));
