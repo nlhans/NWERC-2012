@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdmiralSolver.cs" />
-    <Compile Include="BeerPressure.cs" />
+    <Compile Include="Admiral\AdmiralSolver.cs" />
+    <Compile Include="Admiral\AdmiralSolverTest.cs" />
+    <Compile Include="Admiral\Passage.cs" />
+    <Compile Include="Admiral\Route.cs" />
+    <Compile Include="Admiral\RoutePair.cs" />
+    <Compile Include="Admiral\Waypoint.cs" />
+    <Compile Include="BeerPressure\BeerPressure.cs" />
+    <Compile Include="BeerPressure\BeerPressureTest.cs" />
+    <Compile Include="BeerPressure\Poll.cs" />
+    <Compile Include="BeerPressure\Pub.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
